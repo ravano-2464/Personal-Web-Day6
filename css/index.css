@@ -62,6 +62,10 @@
     margin-left: 15px;
 }
 
+.active {
+    width: 5%;
+}
+
 #hamburger-button {
     display: none;
 }
