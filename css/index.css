@@ -5,7 +5,6 @@
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .btn-contact,
@@ -43,279 +42,24 @@
     color: orangered;
 }
 
-.checkbox {
-    white-space: nowrap;
-    display: block;
-}
-
-.index-list {
+.profile-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-   }
-    
-    .text-checkbox {
-        font-size: 14px;
-        display: flex;
-        align-items: center;
-   }
-
-    .checkbox div {
-        display: flex;
-        align-items: center;
-        margin-bottom: 8px;
-   }
-
-    .checkbox input {
-        margin-right: 8px;
-   }
-
-    .form-container {
-        max-width: 600px;
-        margin: auto;
-   }
-
-    form {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-   }
-
-    .button-group {
-        text-align: center;
-   }
-
-.index-form {
-    padding: 50px 0;
-    display: flex;
-    justify-content: center;
+    flex-direction: row;
+    margin: 90px auto;
+    padding: 20px;
 }
 
-.index-form .form-container {
-    width: 80%;
-    max-width: 600px;
-}
-
-.index-form .form-container h1 {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.index-form form label {
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.index-form form input,
-.index-form form textarea,
-.index-form form select,
-.index-form form .input-index-image-group {
-    width: 100%;
-    font-size: 16px;
-    font-weight: 400;
-    padding: 8px;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    background: #f7f7f7;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-}
-
-.index-form form textarea {
-    height: 150px;
-}
-
-.index-form form .input-index-image-group label p {
-    font-size: 14px;
-}
-
-.index-form form .input-index-image-group label {
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.index-form form .button-group {
-    text-align: right;
-}
-
-.index-form form button {
-    background-color: #f7f7f7;
-    color: #333;
-    padding: 10px;
-    width: 130px;
-    font-size: 16px;
-    border-radius: 10px;
-    text-decoration: none;
-    text-align: center;
-    border: 2px solid #333;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.index-form form button:hover {
-    background-color: #333;
-    color: #fff;
-}
-
-.index hr {
-    border: 1px solid #ddd;
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.index .index-list {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.index .index-list .index-list-item {
-    width: 80%;
-    max-width: 800px;
-    padding: 15px;
-    margin-bottom: 20px;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.index .index-list .index-list-item .index-image {
+.left {
+    border: 1px solid black;
+    width: 350px;
+    border-radius: 15px;
     flex: 1;
+    padding: 20px;
 }
 
-.index .index-list .index-list-item .index-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    object-fit: cover;
-}
-
-.index .index-list .index-list-item .index-content {
-    padding-left: 20px;
+.right {
     flex: 2;
-}
-
-.index .index-list .btn-group {
-    text-align: right;
-    margin-bottom: 20px;
-}
-
-.index .index-list .btn-group .btn-edit,
-.index .index-list .btn-group .btn-post {
-    background-color: #f7f7f7;
-    color: #333;
-    padding: 10px;
-    width: 130px;
-    font-size: 16px;
-    border-radius: 10px;
-    text-decoration: none;
-    text-align: center;
-    border: 2px solid #333;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.index .index-list .btn-group .btn-edit .btn-post {
-    background: #f7f7f7;
-}
-
-.index .index-list .btn-group .btn-edit:hover,
-.index .index-list .btn-group .btn-post:hover {
-    background-color: #333;
-    color: #fff;
-}
-
-.index .index-list h1 a {
-    color: black;
-    text-decoration: none;
-}
-
-.index .index-list .detail-index-content {
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 20px;
-}
-
-.index .index-list .index-list-item p {
-    margin-top: 20px;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: justify;
-}
-
-.index-detail {
-    display: flex;
-    justify-content: center;
-}
-
-.index-detail-container {
-    width: 80%;
-    max-width: 800px;
-    margin: 40px 0;
-}
-
-.index-detail-container img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.index-detail-container h1 {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 36px;
-    line-height: 120%;
-    margin-bottom: 15px;
-}
-
-.index-detail-container .author {
-    font-weight: 100;
-    font-size: 18px;
-    line-height: 120%;
-    margin-bottom: 20px;
-}
-
-.index-detail-container p {
-    margin-top: 40px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 140%;
-    text-align: justify;
-}
-
-.text-checkbox {
-    font-size: 12px;
-    display: flex;
-    align-items: center;
-}
-
-.checkbox {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px; 
-}
-
-.checkbox-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    flex-basis: 50%; 
-}
-
-.checkbox input {
-    margin-right: 8px;
-}
-
-.button-group {
-    text-align: center;
+    margin-left: 15px;
 }
 
 #hamburger-button {
@@ -339,9 +83,13 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .form-container {
-        width: 80%;
-        margin-left: 20px;
+    .profile-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right {
+        margin-top: 20px;
     }
 }
 
@@ -349,7 +97,7 @@
     .nav-collapse {
         display: none;
     }
-
+    
     #hamburger-button {
         display: block;
     }
