@@ -310,6 +310,10 @@ form {
     text-align: center;
 }
 
+.nav-collapse {
+    width: 25%;
+}
+
 #hamburger-button {
     display: none;
 }
@@ -353,6 +357,7 @@ form {
 @media only screen and (max-width: 500px) {
     .nav-collapse {
         display: none;
+        width: 5px;
     }
     
     #hamburger-button {
