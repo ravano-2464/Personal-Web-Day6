@@ -339,9 +339,13 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .form-container {
-        width: 80%;
-        margin-left: 20px;
+    .profile-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right {
+        margin-top: 20px;
     }
 }
 
@@ -349,7 +353,7 @@
     .nav-collapse {
         display: none;
     }
-
+    
     #hamburger-button {
         display: block;
     }
