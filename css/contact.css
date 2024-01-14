@@ -31,6 +31,21 @@
     color: #fff;
 }
 
+.nav-link {
+    font-size: 25px;
+}
+
+.nav-link a {
+    color: black;
+    white-space: nowrap;
+    display: block;
+    text-decoration: none;
+}
+
+.nav-link a:hover {
+    color: orangered;
+}
+
 #hamburger-button {
     display: none;
 }
