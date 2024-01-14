@@ -11,6 +11,7 @@
     margin-bottom: 10px;
 }
 
+.btn-contact,
 .btn-submit {
     background-color: #f7f7f7;
     color: #333;
@@ -22,6 +23,12 @@
     text-align: center;
     border: 2px solid #333;
     transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-contact:hover,
+.btn-submit:hover {
+    background-color: #333;
+    color: #fff;
 }
 
 #hamburger-button {
